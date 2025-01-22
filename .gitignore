@@ -15,6 +15,7 @@ Thumbs.db
 env/
 venv/
 */.env  # ignore environment files
+*.env
 
 # Ignore IDE specific files
 .idea/
@@ -45,6 +46,7 @@ results/
 .DS_Store
 
 # Ignore specific files or directories (add as needed)
+*.code-workspace
 
 # Make exceptions
 !requirements.txt
