@@ -1,0 +1,52 @@
+# Ignore Jupyter Notebook related files
+*.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# Ignore temporary files and directories
+__pycache__/
+*.pyc
+*.tmp
+*.log
+Thumbs.db
+*.swp
+
+# Ignore virtual environment directories
+.venv/
+env/
+venv/
+*/.env  # ignore environment files
+*.env
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.csproj
+*.sln
+
+# Ignore data files (if not needed for version control. Adjust as needed.)
+data/
+output/
+results/
+*.csv
+*.json
+*.txt
+*.pkl
+*.h5
+*.db
+*.sqlite
+
+# Ignore notebooks' outputs if using papermill
+*.ipynb.json
+
+
+# Ignore backup files
+*~
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore specific files or directories (add as needed)
+*.code-workspace
+
+# Make exceptions
+!requirements.txt
